@@ -29,6 +29,8 @@
 #header ul a:hover {
     color: #008CBA;
     font-size: 13pt;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
 }
 
 #header li {
