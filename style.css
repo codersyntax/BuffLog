@@ -1,0 +1,124 @@
+.container {
+    position: absolute;
+    width: 1000px;
+    top:0px;
+    bottom:0px;
+    left: 50%;
+    margin-left: -500px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#header {
+    position: fixed;
+    top: 25px;
+    width: 30%;
+    float: left;
+    padding: 0px 25px 25px 25px;
+    text-transform: uppercase;
+}
+
+#header ul {
+    list-style-type: none;
+}
+
+#header ul a {
+    text-decoration: none;
+    color: #666;
+}
+
+#header ul a:hover {
+    color: #008CBA;
+    font-size: 13pt;
+}
+
+#header li {
+    padding: 5px;
+}
+
+#content {
+    position:relative;
+    top: 25px;
+    width: 70%;
+    float:right;
+    overflow: auto;
+}
+
+#comments {
+    background-image: linear-gradient(rgba(244, 244, 244, 1), rgba(255,255,255,1));
+    padding: 25px 25px 100px 25px;
+}
+
+#comments h2 {
+    color: #999;
+}
+
+#comments ul {
+    list-style-type: none;
+}
+
+#footer {
+    background-image: linear-gradient(rgba(244, 244, 244, 1), rgba(255,255,255,1));
+    padding: 25px 25px 100px 25px;
+}
+
+#footer p {
+    text-align: center;
+}
+
+#footer h2 {
+    color: #999;
+}
+
+#footer input,textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.post {
+    position: relative;
+    padding: 25px 25px 60px 25px;
+    background-color:rgba(244, 244, 244, 1);
+    margin-bottom: 25px;
+    background-image: linear-gradient(rgba(244, 244, 244, 1), rgba(255,255,255,1));
+}
+
+.post-title {
+    color: #999;
+}
+
+.post-details {
+    color: #666;
+    font-size: 0.8em;
+}
+
+.post-content {
+    color: #333;
+    margin-left: 30px;
+    text-indent: 2em;
+}
+
+.view-more {
+    float:right;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.view-more:hover {
+    background-color: #008CBA;
+    color: white;
+}
