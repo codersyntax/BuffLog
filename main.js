@@ -10,4 +10,17 @@ $( document ).ready(function() {
     $("#sample-post-full").on("click", function() {
         window.location.href='view-post.html';
     });
+
+    $(".edit").on("click", function (evt) {
+       window.location.href='edit-post.html';
+    });
+
+    $(".edit-post-button").on("click", function() {
+        var formItems = [$("#title"), $("#post-content")];
+        for(var i=0; i < formItems.length; i++) {
+            console.log(formItems[i].val());
+        }
+        $(".edit-post-button").val("Post Saved");
+        $(".edit-post-button").css("background-color", "#008CBA");
+    });
 });

@@ -45,6 +45,45 @@
     overflow: auto;
 }
 
+.edit-post {
+    padding: 25px 25px 50px 25px;
+    background-color:rgba(244, 244, 244, 1);
+    background-image: linear-gradient(rgba(244, 244, 244, 1), rgba(255,255,255,1));
+}
+
+.edit-post p {
+    text-align: center;
+}
+
+.edit-post input, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.edit-post-button {
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.edit-post-button:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
 #comments {
     background-image: linear-gradient(rgba(244, 244, 244, 1), rgba(255,255,255,1));
     padding: 25px 25px 100px 25px;
@@ -97,6 +136,14 @@
 .post-details {
     color: #666;
     font-size: 0.8em;
+    text-decoration: none;
+}
+
+.edit {
+    color: #666;
+    font-size: 0.8em;
+    text-decoration: none;
+    float:right;
 }
 
 .post-content {
@@ -122,4 +169,25 @@
 .view-more:hover {
     background-color: #008CBA;
     color: white;
+}
+
+.search {
+    padding: 25px 25px 50px 25px;
+    background-color:rgba(244, 244, 244, 1);
+    background-image: linear-gradient(rgba(244, 244, 244, 1), rgba(255,255,255,1));
+}
+
+.search p {
+    text-align: center;
+}
+
+.search input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
 }
