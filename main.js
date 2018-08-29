@@ -16,7 +16,7 @@ $( document ).ready(function() {
     });
 
     $(".edit-post-button").on("click", function() {
-        var formItems = [$("#title"), $("#post-content")];
+        var formItems = [$("#title"), $("#author"), $("#post-content")];
         for(var i=0; i < formItems.length; i++) {
             console.log(formItems[i].val());
         }
